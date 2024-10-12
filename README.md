@@ -20,9 +20,13 @@ console.log(allRates);
 // Fetch BTC price for a specific currency
 const eurRate = await orakelOtter("EUR");
 console.log(eurRate);
+```
 
 ### 📚 API
+
+```typescript
 orakelOtter(currency?: string): Promise<[string, number][]>
+```
 
 currency (optional): The currency code (e.g., "USD", "EUR", "GBP")
 Return value: An array of tuples with currency code and current BTC price
@@ -40,4 +44,3 @@ Feel free to open issues or create pull requests. The Orakel Otter welcomes your
 MIT
 
 Created with 💖 and 🦦 magic
-```
