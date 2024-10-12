@@ -4,7 +4,7 @@
 
 ### 🌟 Features
 
-- 📊 Fetches current Bitcoin prices in various currencies from the Mempool.space API
+- 📊 Fetches current Bitcoin prices in various currencies from the Mempool.space API (read more about the rate limitations [here](https://mempool.space/de/docs/api/rest)).)
 - 🌍 Supports USD, EUR, GBP, CAD, CHF, AUD, JPY
 - 🔍 Filter by a specific currency or get all available rates
 
