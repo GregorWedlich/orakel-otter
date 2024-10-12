@@ -2,12 +2,5 @@
   "name": "@gw/orakel-otter",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "Gregor Wedlich <hello@sil3ntrunning.net>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gw/orakel-otter.git"
-  },
-  "keywords": ["deno", "orakel", "otter", "bitcoin", "price"],
-  "description": "Orkale Otter - Get the latest price of Bitcoin",
   "exports": "./main.ts"
 }
