@@ -3,6 +3,8 @@ type Response = [string, number][];
 /**
  * Fetches the current prices for various currencies from the Mempool.space API.
  *
+ * note: we use the mempool.space API, when we reach the rate limit, we get a 429 error.
+ *
  * @param currency - The currency (USD, EUR, GBP, CAD, CHF, AUD, JPY) to filter the prices for. If not provided, returns all available prices.
  * @returns An array of tuples, where the first element is the currency code and the second element is the current price.
  * @throws {Error} If the specified currency is not found in the API response.
